@@ -1,31 +1,39 @@
 /* Importing webfonts */
 /* styles for the header, main and footer*/
 body {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    color: #272044;
+}
+
+h2 {
+    color: #885df1;
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  flex: auto;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    width: 100%;
 }
 
 article {
-  flex: 2;
-  overflow-y: auto;
-  width: 66.66%;
+    flex: 2;
+    overflow-y: auto;
+    width: 66.66%;
 }
 
 aside {
-  flex: 1;
-  overflow-y: auto;
-  width: 33.33%;
+    flex: 1;
+    overflow-y: auto;
+    width: 33.33%;
 }
 
 header,
 footer {
-  width: 100%;
+    width: 100%;
 }
