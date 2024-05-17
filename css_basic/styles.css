@@ -3,20 +3,29 @@
 body {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 main {
   display: flex;
   flex-direction: row;
   flex: auto;
+  width: 100%;
 }
 
 article {
   flex: 2;
   overflow-y: auto;
+  width: 66.66%;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
+  width: 33.33%;
+}
+
+header,
+footer {
+  width: 100%;
 }
