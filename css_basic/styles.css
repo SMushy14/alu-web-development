@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+header {
+    color: #272044;
+}
+
 h1 {
     color: #272044;
 }
@@ -36,4 +40,5 @@ aside {
 header,
 footer {
     width: 100%;
+    color: #885df1;
 }
