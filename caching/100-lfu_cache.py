@@ -38,4 +38,3 @@ class LFUCache(BaseCaching):
             return
         self.uses[key] += 1
         return self.cache_data.get(key)
-    
